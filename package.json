@@ -1,0 +1,25 @@
+{
+  "name": "discord-getting-started",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Discord example app",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Shay DeWael",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
